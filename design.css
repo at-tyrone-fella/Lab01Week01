@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.navbar {
+    background-color: silver;
+    overflow: hidden;
+    display: flex;
+    /* Use flexbox to align items horizontally */
+}
+
+.n1 {
+    border: thin black solid;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 5px;
+    box-shadow: inset;
+}
+
+.n1:hover {
+    background-color: #ddd;
+    color: grey;
+}
+
+.mycontent {
+    padding: 20px;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* Add padding to the content area */
+}
+
+.topimg img,
+.articleimg img {
+    width: 100%;
+    /* Make images responsive */
+    height: auto;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
